@@ -87,7 +87,10 @@
   border-color: blue;
   align-content: center;
   text-align: center;
-  background-color: rgba(237, 118, 21, .57);
+  background-color: rgba(40, 40, 40, .9);
+  color: white;
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
   position: absolute;
   top: 20%;
   left: 15%;
