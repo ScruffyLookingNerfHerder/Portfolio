@@ -1,0 +1,282 @@
+.stormtrooper{
+  width: 100%;
+
+
+}
+
+.body{
+  padding: 0;
+}
+
+.Alexbar{
+  min-height: 80px;
+  max-height: 80px;
+  min-width: 100%;
+
+}
+
+.portfoliobar{
+  min-width: 100%;
+  max-height: 80px;
+  min-height: 80px;
+  background-color: rgb(237, 118, 21);
+  border-top: solid;
+  border-bottom: solid;
+  border-color: rgb(14, 47, 131);
+}
+
+.Alexbar nav{
+  min-width: 100%;
+  overflow: visible;
+}
+
+.AboutMeTitle{
+  color: whitesmoke;
+  font-size: 25px;
+  font-family: 'Fredericka the Great',cursive;
+}
+
+.portfolio-title{
+  color: whitesmoke;
+  font-size: 25px;
+  margin-top: 1%;
+  font-family: 'Fredericka the Great',cursive;
+
+}
+
+.imagecontainer{
+  margin-bottom: 0;
+}
+
+.Alexpic{
+  border-radius: 50%;
+  height: 50%;
+  width: 50%;
+  border: solid;
+  border-color: rgb(14, 47, 131);
+  position: relative;
+  left: 30%;
+
+}
+
+.titleimage{
+  position: relative;
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+  font-family: 'Vast Shadow', cursive;
+  background-repeat: no-repeat;
+}
+
+.TitleName{
+  position: absolute;
+  bottom: 0;
+  left: 35%;
+  font-size: 80px;
+  font-family: ;
+  color: whitesmoke;
+}
+
+.AlexLink{
+  color: rgb(255, 255, 255);
+}
+
+.About-Me-Box{
+  border: solid;
+  border-radius: 12px;
+  border-color: blue;
+  align-content: center;
+  text-align: center;
+  background-color: rgba(237, 118, 21, .57);
+  position: absolute;
+  top: 20%;
+  left: 15%;
+
+
+
+
+}
+
+@media (max-width: 800px){
+  .TitleName{
+    position: absolute;
+    left: 10%;
+  }
+}
+
+
+@media (max-width: 714px){
+  .About-Me-Box{
+    /* height: 400px; */
+    position: absolute;
+    top: 40%;
+  }
+  .background{
+    height: 2000px;
+  }
+}
+
+@media (max-width: 675px){
+  .About-Me-Box{
+    position: absolute;
+    top: 20%;
+  }
+  .background{
+    height: auto;
+  }
+}
+
+@media (max-width: 658px){
+  .About-Me-Box{
+    position: absolute;
+    top: 40%;
+  }
+  #projects{
+    height: 80%;
+  }
+}
+
+@media only screen and (max-width: 1067px){
+  .background{
+    background-attachment: scroll;
+  }
+
+  #project{
+    background-attachment: scroll;
+    height: 100vh;
+  }
+}
+
+.backgroundimage{
+  background-image: url("../imgs/sky-blue-brick-wall-texture.jpg");
+  height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.alex-project {
+  padding: 1%;
+  width: 500px;
+  height: 300px;
+  margin: 2%;
+  border: solid;
+  border-color: black;
+  background-color: orange;
+  border-radius: 12px;
+}
+
+
+
+#projects{
+  background-image: url("../imgs/Dachstein night.jpg");
+  height: 1300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  overflow-y: auto;
+  perspective: 2px;
+
+  border: solid;
+
+
+}
+
+.projectlist li{
+  display: inline-grid;
+  list-style: none;
+}
+
+.FeedbagOne{
+  background-image: url("../imgs/Feedbag1cap.PNG");
+  background-attachment: local;
+  background-size: cover;
+}
+
+.MyFood{
+  background-image: url("../imgs/MyFoodCap.PNG");
+  background-attachment: local;
+  background-size: cover;
+
+}
+
+.insidetext{
+  background-color: rgba(224, 224, 224, 0.91);
+
+}
+
+.Feedbag{
+  background-image: url("../imgs/Feedbagcap.PNG");
+  background-attachment: local;
+  background-size: cover;
+
+}
+
+.Feedbag h1 {
+  font-family: Writing, Helvetica, Arial, sans-serif;
+  font-size: 70px;
+}
+
+.FeedbagOne h1{
+  font-family: Writing, Helvetica, Arial, sans-serif;
+  font-size: 70px;
+}
+
+.MyFood h1{
+  font-family: Food, Helvetica, Arial, sans-serif;
+  font-size: 70px;
+}
+
+.MakeItTrain h1{
+  font-family: 'Source Code Pro', monospace;
+  font-size: 50px;
+
+}
+
+.BobsBurgers h1{
+  font-family: Bobs, Helvetica, Arial, sans-serif;
+  font-size: 40px;
+}
+
+.GIFted h1 {
+  font-family: serif;
+}
+
+@font-face{
+  font-family: Bobs;
+  src: url("../imgs/Bob's Burgers.ttf");
+}
+
+@font-face {
+  font-family: Food;
+  src: url("../imgs/food.ttf");
+}
+
+
+@font-face {
+  font-family: Writing;
+  src: url("../imgs/writing.otf");
+}
+
+.MakeItTrain{
+  background-image: url("../imgs/MakeItTrain.PNG");
+  background-attachment: local;
+  background-size: cover;
+
+}
+
+.BobsBurgers{
+  background-image: url("../imgs/BobsBurgerscap.PNG");
+  background-attachment: local;
+  background-size: cover;
+}
+
+.GIFted{
+  background-image: url("../imgs/GIFtedcap.PNG");
+  background-attachment: local;
+  background-size: cover;
+}
