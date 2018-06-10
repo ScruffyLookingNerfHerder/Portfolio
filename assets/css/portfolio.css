@@ -1,11 +1,23 @@
-.stormtrooper{
+.stormtrooper {
   width: 100%;
+  /* background: url("../imgs/stormtrooper.png") no-repeat center center;
 
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain; */
 
 }
+/* background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+overflow: auto;
+margin: 0; */
 
 .body{
   padding: 0;
+
 }
 
 .Alexbar{
@@ -14,6 +26,7 @@
   min-width: 100%;
 
 }
+
 
 .portfoliobar{
   min-width: 100%;
@@ -26,8 +39,10 @@
 }
 
 .Alexbar nav{
+
   min-width: 100%;
   overflow: visible;
+
 }
 
 .AboutMeTitle{
@@ -41,6 +56,7 @@
   font-size: 25px;
   margin-top: 1%;
   font-family: 'Fredericka the Great',cursive;
+  margin-left: 2%;
 
 }
 
@@ -55,9 +71,11 @@
   border: solid;
   border-color: rgb(14, 47, 131);
   position: relative;
+
   left: 30%;
 
 }
+
 
 .titleimage{
   position: relative;
@@ -68,12 +86,13 @@
   background-repeat: no-repeat;
 }
 
+
 .TitleName{
   position: absolute;
   bottom: 0;
   left: 35%;
-  font-size: 80px;
-  font-family: ;
+  font-size: 10%;
+  font-family: 'Vast Shadow', cursive;
   color: whitesmoke;
 }
 
@@ -94,6 +113,7 @@
   position: absolute;
   top: 20%;
   left: 15%;
+  margin-bottom: 20px;
 
 
 
@@ -110,7 +130,6 @@
 
 @media (max-width: 714px){
   .About-Me-Box{
-    /* height: 400px; */
     position: absolute;
     top: 40%;
   }
@@ -144,7 +163,7 @@
     background-attachment: scroll;
   }
 
-  #project{
+  #projects{
     background-attachment: scroll;
     height: 100vh;
   }
@@ -157,6 +176,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
+  overflow: auto;
 }
 
 .alex-project {

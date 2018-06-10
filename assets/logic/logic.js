@@ -1,9 +1,13 @@
+
+
+
 const projects = [
   Feedbag = {
     title: "Feedbag",
     cssclass: "Feedbag",
     about: "A react built food finding app, Feedbag allows users to search for restaurants and recipes based on cuisine, and save their favorites. In the future, users will be able to modify their saved choices",
     github: "https://github.com/ScruffyLookingNerfHerder/Feedbag",
+    deployed: "https://foodcodingstarsfeedbag.herokuapp.com/"
 
   },
   MyFood = {
