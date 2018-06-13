@@ -1,23 +1,47 @@
-.stormtrooper {
-  width: 100%;
-
-}
-
-
 .body{
   padding: 0;
 
 }
 
-.Alexbar{
-  min-height: 80px;
-  max-height: 80px;
+.parent{
   min-width: 100%;
+  margin: 0;
+  padding: 0;
+}
 
+.titleimage{
+  position: relative;
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+  font-family: 'Vast Shadow', cursive;
+  background-repeat: no-repeat;
 }
 
 
-.portfoliobar{
+.stormtrooper {
+  background-image: url("../imgs/stormtrooper.png");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 800px;
+  resize: both;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+
+}
+
+.TitleName{
+  position: absolute;
+  bottom: 0;
+  left: 60%;
+  font-size: 300%;
+  font-family: 'Vast Shadow', cursive;
+  color: whitesmoke;
+}
+
+
+.Alexbar{
   min-width: 100%;
   max-height: 80px;
   min-height: 80px;
@@ -25,32 +49,27 @@
   border-top: solid;
   border-bottom: solid;
   border-color: rgb(14, 47, 131);
+
 }
 
 .Alexbar nav{
 
   min-width: 100%;
   overflow: visible;
-
+  margin: 0;
+  z-index: 1;
 }
+
+.AlexLink{
+  color: rgb(255, 255, 255);
+}
+
 
 .AboutMeTitle{
   color: whitesmoke;
   font-size: 25px;
   font-family: 'Fredericka the Great',cursive;
-}
-
-.portfolio-title{
-  color: whitesmoke;
-  font-size: 25px;
-  margin-top: 1%;
-  font-family: 'Fredericka the Great',cursive;
-  margin-left: 2%;
-
-}
-
-.imagecontainer{
-  margin-bottom: 0;
+  margin-left: 3%;
 }
 
 .Alexpic{
@@ -65,28 +84,13 @@
 
 }
 
-
-.titleimage{
-  position: relative;
-  text-align: center;
-  max-width: 100%;
-  height: auto;
-  font-family: 'Vast Shadow', cursive;
+.backgroundimage{
+  background-image: url("../imgs/sky-blue-brick-wall-texture.jpg");
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
-}
-
-
-.TitleName{
-  position: absolute;
-  bottom: 0;
-  left: 35%;
-  font-size: 10%;
-  font-family: 'Vast Shadow', cursive;
-  color: whitesmoke;
-}
-
-.AlexLink{
-  color: rgb(255, 255, 255);
+  background-size: cover;
+  overflow: hidden;
 }
 
 .About-Me-Box{
@@ -104,15 +108,38 @@
   margin-bottom: 7%;
   overflow: hidden;
 
+}
 
 
+
+.portfoliobar{
+  min-width: 100%;
+  max-height: 80px;
+  min-height: 80px;
+  background-color: rgb(237, 118, 21);
+  border-top: solid;
+  border-bottom: solid;
+  border-color: rgb(14, 47, 131);
+}
+
+
+.portfolio-title{
+  color: whitesmoke;
+  font-size: 25px;
+  margin-top: 1%;
+  font-family: 'Fredericka the Great',cursive;
+  margin-left: 3%;
 
 }
+
 
 @media (max-width: 800px){
   .TitleName{
     position: absolute;
     left: 10%;
+  }
+  .stormtrooper{
+    height: 600px;
   }
 }
 
@@ -141,6 +168,9 @@
   .background{
     height: auto;
   }
+  .stormtrooper{
+    height: 500px;
+  }
 
 
 }
@@ -164,6 +194,9 @@
   .MyFood h1{
     font-size: 45px;
   }
+  .stormtrooper{
+    height: 300px;
+  }
 }
 
 @media only screen and (max-width: 1067px){
@@ -177,15 +210,8 @@
   }
 }
 
-.backgroundimage{
-  background-image: url("../imgs/sky-blue-brick-wall-texture.jpg");
 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
-}
+
 
 .alex-project {
   padding: 1%;
