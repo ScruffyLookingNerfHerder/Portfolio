@@ -1,4 +1,4 @@
-
+$(document).ready(function(){
 
 
 const projects = [
@@ -67,3 +67,5 @@ for (var i = 0; i < projects.length; i++){
 }
 
 populate();
+
+});

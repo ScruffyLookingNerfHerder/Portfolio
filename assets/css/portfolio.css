@@ -85,7 +85,9 @@
 
 }
 
-.backgroundimage{
+/* .backgroundimage */
+
+.backgroundimage {
   background-image: url("../imgs/sky-blue-brick-wall-texture.jpg");
   background-attachment: fixed;
   background-position: center;
@@ -229,7 +231,7 @@
 
 #projects{
   background-image: url("../imgs/Dachstein night.jpg");
-  height: 1300px;
+  /* height: 1300px; */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -238,7 +240,6 @@
   width: 100%;
   overflow-y: auto;
   perspective: 2px;
-
   border: solid;
 
 
@@ -337,4 +338,41 @@
   background-image: url("../imgs/GIFtedcap.PNG");
   background-attachment: local;
   background-size: cover;
+}
+
+.contactbackground{
+  background-image: url("../imgs/cherryblossoms.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  align-content: center;
+  overflow-y: auto;
+
+}
+
+.contactbox{
+  border: solid;
+  border-radius: 12px;
+  border-color: blue;
+  align-content: center;
+  text-align: center;
+  background-color: rgba(40, 40, 40, .9);
+  color: white;
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  width: 50%;
+  overflow: hidden;
+  margin-left: 25%;
+
+}
+
+.copyright{
+  text-align: center;
+  padding: 10px;
+  color: whitesmoke
 }
