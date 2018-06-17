@@ -23,7 +23,7 @@
   background-image: url("../imgs/stormtrooper.png");
   background-size: 100% 100%;
   width: 100%;
-  height: 800px;
+  height: 900px;
   resize: both;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -374,5 +374,14 @@
 .copyright{
   text-align: center;
   padding: 10px;
-  color: whitesmoke
+  color: whitesmoke;
+  position: relative;
+
+}
+
+.copyrightcontainer{
+  position: absolute;
+  left: 45%;
+  margin-right: 30%;
+
 }
