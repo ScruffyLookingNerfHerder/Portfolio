@@ -46,6 +46,7 @@ const projects = [
   }
 ]
 
+//loop through projects and create links
 const projectul = $("#projectul");
 populate = () => {
 for (var i = 0; i < projects.length; i++){
