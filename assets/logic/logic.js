@@ -14,7 +14,7 @@ const projects = [
     title: "MyFood",
     cssclass: "MyFood",
     about: "The evolution of Feedbag 1, MyFood is a food app designed to allow users to find and favorite restaurants and reicpes based on cuinsine and price",
-    github: "https://github.com/ScruffyLookingNerfHerder/myfood"
+    github: "https://github.com/ScruffyLookingNerfHerder/foodcodingstars"
   },
   Trains = {
     title: "Make it Train",
