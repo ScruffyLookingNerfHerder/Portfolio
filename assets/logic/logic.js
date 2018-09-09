@@ -46,14 +46,15 @@ const projects = [
   }
 ]
 
+//loop through projects and create links
 const projectul = $("#projectul");
 populate = () => {
 for (var i = 0; i < projects.length; i++){
   var projectdiv = $("<li class='alex-project " + projects[i].cssclass +"'>");
   var title = "<h1 class='insidetext'>" + projects[i].title + "</h1>";
   var about = "<p class='insidetext'>" + projects[i].about + "</p>";
-  var github = "<a class = 'projectlink insidetext' href = '" + projects[i].github + "'target='_blank'> Github</a>";
-  var deployed = projects[i].deployed ?  "<a class = 'projectlink insidetext' href = '" + projects[i].deployed + "target='_blank'> Deployed Site</a>" : "<p class='insidetext'> Deployment in progress! </p>";
+  var github = "<a class = 'projectlink insidetext' target='_blank' href = '" + projects[i].github + "'> Github</a>";
+  var deployed = projects[i].deployed ?  "<a class = 'projectlink insidetext' target='_blank' href = '" + projects[i].deployed +"'> Deployed Site</a>" : "<p class='insidetext'> Deployment in progress! </p>";
   projectdiv.prepend(title);
   projectdiv.append(about);
   projectdiv.append("<p></p>")
